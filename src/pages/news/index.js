@@ -16,6 +16,7 @@ const News = () => {
                                <div className="news-center">
                                    <p>About 3000 Results Found</p>
                                    <h6>Recommended For You...</h6>
+                                   <article></article>
                                 </div> 
                             </div>
                             <div className="col-md-3">
