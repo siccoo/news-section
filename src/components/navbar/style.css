@@ -36,41 +36,20 @@
         height: 15px;
     }
 }
+
+.navbar input[type="search"] {
+    max-width: 623px;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
   
 .navbar-nav .nav-item .nav-link {
     font-family: "Pavanam";
     font-size: 16px;
     line-height: 25px;  
     color: #506690 !important;
-}
-  
-@media only screen and (max-width:1024px) {
-    .navbar-nav .nav-item .nav-link {
-       font-size: 12px; 
-       line-height: 12px;
-    }
-}
-  
-.navbar-nav .nav-item .nav-btn {
-    background: #335EEA;
-    border-radius: 4px;
-    color: #fff;
-    font-family: "Pavanam";
-    font-style: normal;
-    font-size: 17px;
-    line-height: 25px;
-    padding: 10px 12px;
-    max-width: 118px;
-    text-decoration: none;
-}
-
-@media only screen and (max-width:1024px) {
-    .navbar-nav .nav-item .nav-btn {
-       font-size: 12px; 
-       line-height: 12px;
-       border-radius: 2px;
-       padding: 8px 10px;
-    }
 }
 
 .navbar-nav .nav-item .nav-btn1 {

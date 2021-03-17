@@ -21,7 +21,7 @@ const Topbar = () => {
                     </button>
                         <div id="navbarNavDropdown" className="navbar-collapse collapse">
                             <form className="navbar form-inline mx-auto">
-                                <input className="form-control mr-sm-3" type="search" placeholder="Health Grant" />
+                                <input className="" type="search" placeholder="Health Grant" />
                             </form>
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
@@ -35,28 +35,7 @@ const Topbar = () => {
                                 </li><br />
                             </ul>
                         </div>
-
-                        <div className="row">
-                        <div className="col-md-4"></div>
-                        <div className="col-md-4">
-                            <ul className="list-inline">
-                                <li>
-                                    <Link className="list-item" to="/">All</Link>
-                                </li>
-                                <li>
-                                    <Link className="list-item" to="/">All</Link>
-                                </li>
-                                <li>
-                                    <Link className="list-item" to="/">All</Link>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="col-md-4"></div>
-                    </div>
                     </nav> 
-                    
-                </div>
-                <div className="container">
                     
                 </div>
             </section>
