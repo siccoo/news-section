@@ -8,7 +8,7 @@ const Topbar = () => {
     return (
         <div>
             <section className="nav-section">
-                <div className="">
+                <div className="container">
                     {/* NAVIGATION BAR STARTS */}
                     <nav className="navbar navbar-expand-lg navbar-light nav-bg justify-content-sm-start fixed-top" >
                     <Link to={'/'} className="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto">
@@ -35,7 +35,29 @@ const Topbar = () => {
                                 </li><br />
                             </ul>
                         </div>
+
+                        <div className="row">
+                        <div className="col-md-4"></div>
+                        <div className="col-md-4">
+                            <ul className="list-inline">
+                                <li>
+                                    <Link className="list-item" to="/">All</Link>
+                                </li>
+                                <li>
+                                    <Link className="list-item" to="/">All</Link>
+                                </li>
+                                <li>
+                                    <Link className="list-item" to="/">All</Link>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="col-md-4"></div>
+                    </div>
                     </nav> 
+                    
+                </div>
+                <div className="container">
+                    
                 </div>
             </section>
         </div>
