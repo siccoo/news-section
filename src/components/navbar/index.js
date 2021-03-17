@@ -12,7 +12,7 @@ const Topbar = () => {
                 <a className="navbar-brand" href="/">
                     <img src={NewsLogo} alt="news-logo" className="news-logo" />
                 </a>
-                <form className="form-inline ml-auto">
+                <form className="form-inline mx-auto">
                     <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
                 </form>
                 <div className="">
