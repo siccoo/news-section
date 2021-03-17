@@ -1,0 +1,130 @@
+.nav-section {
+    background: #ffffff;
+}
+
+.navbar {
+    padding: 8px 20px    !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .navbar {
+        padding: 10px !important;
+    }
+}
+  
+.nav-bg {
+    background: #ffffff;
+    border: none;
+}
+  
+.navbar-brand {
+    padding: 0px, 0px !important;
+}
+  
+.navbar-nav .nav-item {
+      padding-right: 10px;
+}
+  
+.home-logo {
+    width: 74.27px;
+    height: 17.77px;
+}
+
+@media only screen and (max-width:1024px) {
+    .home-logo {
+        width: 74px;
+        height: 15px;
+    }
+}
+  
+.navbar-nav .nav-item .nav-link {
+    font-family: "Pavanam";
+    font-size: 16px;
+    line-height: 25px;  
+    color: #506690 !important;
+}
+  
+@media only screen and (max-width:1024px) {
+    .navbar-nav .nav-item .nav-link {
+       font-size: 12px; 
+       line-height: 12px;
+    }
+}
+  
+.navbar-nav .nav-item .nav-btn {
+    background: #335EEA;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "Pavanam";
+    font-style: normal;
+    font-size: 17px;
+    line-height: 25px;
+    padding: 10px 12px;
+    max-width: 118px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1024px) {
+    .navbar-nav .nav-item .nav-btn {
+       font-size: 12px; 
+       line-height: 12px;
+       border-radius: 2px;
+       padding: 8px 10px;
+    }
+}
+
+.navbar-nav .nav-item .nav-btn1 {
+    font-family: "Pavanam";
+    font-size: 17px;
+    line-height: 16px;  
+    color: #506690 !important;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1024px) {
+    .navbar-nav .nav-item .nav-btn1 {
+       font-size: 12px; 
+       line-height: 12px;
+    }
+}
+  
+.navbar-toggler {
+    width: 47px;
+    border:none;
+}
+  
+.navbar-toggler .line{
+      float: left;
+      width: 100%;
+      height: 2px;
+      background-color: white;
+      margin-bottom: 5px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 54px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        background: #fff;
+    }
+    .navbar-collapse.collapsing {
+        height: auto;
+        -webkit-transition: left 0.3s ease;
+        -o-transition: left 0.3s ease;
+        -moz-transition: left 0.3s ease;
+        transition: left 0.3s ease;
+        left: -100%;
+    }
+    .navbar-collapse.show {
+        left: 0;
+        -webkit-transition: left 0.3s ease-in;
+        -o-transition: left 0.3s ease-in;
+        -moz-transition: left 0.3s ease-in;
+        transition: left 0.3s ease-in;
+    }
+}
