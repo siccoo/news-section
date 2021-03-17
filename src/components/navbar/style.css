@@ -82,24 +82,24 @@
 }
 
 @media only screen and (max-width:1024px) {
-    .navbar-nav .nav-item .nav-btn-1 {
+    .navbar-nav .nav-item .nav-btn-2 {
        font-size: 12px; 
        line-height: 15px;
     }
 }
 
-.navbar-nav .nav-item .nav-btn-1 {
+.navbar-nav .nav-item .nav-btn-3 {
     font-family: "Red Hat Text";
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 24px;
     line-height: 21px;  
-    color: #000000 !important;
+    color: #4885ED !important;
     text-decoration: none;
 }
 
 @media only screen and (max-width:1024px) {
-    .navbar-nav .nav-item .nav-btn-1 {
+    .navbar-nav .nav-item .nav-btn-3 {
        font-size: 12px; 
        line-height: 15px;
     }
