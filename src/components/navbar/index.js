@@ -25,13 +25,13 @@ const Topbar = () => {
                             </form>
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    <Link className="nav-btn1" href="/">A</Link>
+                                    <Link className="nav-btn-1" href="/">A</Link>
                                 </li><br />
                                 <li className="nav-item">
-                                    <Link className="nav-btn1" href="/">A</Link>
+                                    <Link className="nav-btn-2" href="/">A</Link>
                                 </li><br />
                                 <li className="nav-item">
-                                    <Link className="nav-btn1" href="/">A</Link>
+                                    <Link className="nav-btn-3" href="/">A</Link>
                                 </li><br />
                             </ul>
                         </div>
