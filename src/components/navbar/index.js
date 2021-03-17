@@ -20,7 +20,7 @@ const Topbar = () => {
                         <span className="line"></span>
                     </button>
                         <div id="navbarNavDropdown" className="navbar-collapse collapse">
-                            <form className="navbar form-inline mx-auto">
+                            <form className="navbar-nav form-inline mx-auto">
                                 <input className="" type="search" placeholder="Health Grant" />
                             </form>
                             <ul className="navbar-nav ml-auto">

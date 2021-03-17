@@ -39,7 +39,7 @@
     }
 }
 
-.navbar input[type="search"] {
+.navbar-nav input[type="search"] {
     max-width: 623px;
     background: #FFFFFF;
     border: 1px solid #CACACA;
