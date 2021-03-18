@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./style.css";
 
 import NewsLogo from "../../images/NewsLogo.svg";
@@ -11,9 +11,9 @@ const Topbar = () => {
                 <div className="container">
                     {/* NAVIGATION BAR STARTS */}
                     <nav className="navbar navbar-expand-lg navbar-light nav-bg justify-content-sm-start fixed-top" >
-                    <Link to={'/'} className="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto">
+                    <a href='/' className="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto">
                         <img src={NewsLogo} alt='news-logo' className="news-logo" />
-                    </Link>
+                    </a>
                     <button className="navbar-toggler align-self-start hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style={{marginTop: 5 + 'px'}}>
                         <span className="line"></span> 
                         <span className="line"></span> 
@@ -25,13 +25,13 @@ const Topbar = () => {
                             </form>
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    <Link className="nav-btn-1" href="/">A</Link>
+                                    <a className="nav-btn-1" href="/">A</a>
                                 </li><br />
                                 <li className="nav-item">
-                                    <Link className="nav-btn-2" href="/">A</Link>
+                                    <a className="nav-btn-2" href="/">A</a>
                                 </li><br />
                                 <li className="nav-item">
-                                    <Link className="nav-btn-3" href="/">A</Link>
+                                    <a className="nav-btn-3" href="/">A</a>
                                 </li><br />
                             </ul>
                         </div>
