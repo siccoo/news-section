@@ -1,9 +1,13 @@
 import React from 'react';
+import Topbar from "../../components/navbar/index";
 import "./style.css";
 
 const News = () => {
         return (
             <div>
+                <section>
+                    <Topbar />
+                </section>
                 <section className="news">
                     <div className="container-fluid">
                         <div className="row">
